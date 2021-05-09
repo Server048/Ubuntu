@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pkg update
 pkg upgrade 
 pkg install root-repo
@@ -10,4 +12,9 @@ pkg install proot
 pkg install cmake 
 pkg install make 
 sleep 2
+echo -n "Enter To Clear"
+read w;
+if [ $w = "" ]
+then
 clear
+fi
