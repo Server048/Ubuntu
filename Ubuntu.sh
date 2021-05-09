@@ -1,5 +1,8 @@
 #!/bin/bash
-
+cd
+cd
+cd
+sleep 2
 pkg update
 pkg upgrade 
 pkg install root-repo
